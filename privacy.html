@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — MacFiles Backup</title>
+<style>body{max-width:760px;margin:64px auto;padding:0 24px;font:18px/1.65 system-ui,sans-serif;color:#172b3a;background:#f7f9fb}a{color:#155fc0}main{background:white;padding:36px;border-radius:14px}h1,h2{line-height:1.25}h2{font-size:22px;margin-top:30px}footer{margin-top:28px;font-size:15px}</style>
+<main>
+<p><a href="index.html">MacFiles Backup</a></p>
+<h1>Privacy policy</h1>
+<p>Last updated: October 13, 2026.</p>
+<p>MacFiles Backup is a private tool operated by its owner to back up selected files to the owner's Google Drive account. It is not offered as a public service.</p>
+<h2>Data and permissions</h2>
+<p>The tool reads files selected by its owner for backup, including their names and filesystem metadata. It uses the Google Drive <code>drive.file</code> scope to create, read, update and remove files in its own backup folder. This scope can also access files the owner explicitly makes available to the app. The configured workflow does not request broad access to existing Drive documents, Gmail, contacts or calendars.</p>
+<p>The tool checks the Google account identity, storage quota and backup-folder metadata to confirm that backups use the intended destination. OAuth credentials are retained on the owner's controlled devices to support scheduled backups.</p>
+<h2>Encryption and storage</h2>
+<p>Restic encrypts file contents, filenames and backup metadata before they are uploaded. Google Drive stores the encrypted repository. The repository password is kept separately on the owner's controlled devices and in the owner's password manager; it is not uploaded as a plaintext file to the backup folder.</p>
+<p>Google can still observe account activity, encrypted object sizes and transfer times. Local operational records may include file paths and errors and are restricted to the owner or authorized system administrators.</p>
+<h2>Use and sharing</h2>
+<p>Data is used only to create, maintain, validate and restore backups. The tool does not sell data, use it for advertising, send it to AI models, or publicly share backup files. Google processes storage and authorization requests under its own applicable terms and privacy policy. Use of data received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.</p>
+<h2>Retention and deletion</h2>
+<p>Encrypted backup versions are kept according to the owner's configured retention policy. The owner can change that policy or remove the backup repository. Files placed in Google Drive Trash remain subject to Google's trash-retention behavior.</p>
+<p>The owner can revoke the application's authorization through Google Account settings. Revoking authorization stops future access but does not delete existing backups; those can be removed separately in Google Drive. Local credentials can also be removed from the configured devices.</p>
+<h2>This informational website</h2>
+<p>These pages contain no analytics scripts, sign-in forms, cookies set by the application, or file-upload functions. The website hosting provider may process ordinary request logs under its own policy.</p>
+<h2>Contact</h2>
+<p>Questions about this private tool or its data handling: <a href="mailto:hello@statgazer.com">hello@statgazer.com</a>.</p>
+</main>
+<footer>MacFiles Backup · Privacy information</footer>
+</html>
